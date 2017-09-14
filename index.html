@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MMI Asteroids</title>
+
+  <style>
+    body { margin: 0 }
+    canvas#game {
+      background: black url('img/fond.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="game"></canvas><!-- Zone de dessin : Canvas HTML5 -->
+
+<script src="lib/howler.js/howler.js"></script> <!-- Librairie externe pour gérer les sons -->
+<script src="js/fonctions.js"></script> <!-- Fonction utilitaires pour notre jeu -->
+<script src="js/Joueur.js"></script> <!-- Contient le constructeur d'un Joueur -->
+<script src="js/Lasers.js"></script> <!-- Contient le constructeur d'un gestionnaire de lasers -->
+<script src="js/Asteroides.js"></script> <!-- Contient le constructeur d'un gestionnaire d'astéroïdes -->
+<script src="js/GUI.js"></script> <!-- Contient le constructeur d'un gestionnaire d'interface -->
+<script src="js/app.js"></script> <!-- Représente le coeur du jeu -->
+<script src="js/clavier.js"></script> <!-- Gestion des évènements clavier -->
+
+</body>
+</html>
